@@ -13,7 +13,6 @@ protocol FeedParserDelegate {
     func parsingWasFinished()
 }
 
-
 class FeedParser: NSObject, NSXMLParserDelegate {
     
     var xmlParser: NSXMLParser!
@@ -52,24 +51,14 @@ class FeedParser: NSObject, NSXMLParserDelegate {
     }
     
     func startParsingWithURL(rssURL: NSURL) {
-        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), { () -> Void in
-            let feedData = NSData(contentsOfURL: rssURL)
-            dispatch_async(dispatch_get_main_queue(), { () -> Void in
-                self.xmlParser = NSXMLParser(data: feedData!)
+        NetworkManager.getDataFromURL(rssURL) { (data) in
+            if let feedData = data {
+                self.xmlParser = NSXMLParser(data: feedData)
                 self.xmlParser.delegate = self
                 self.xmlParser.parse()
-            })
-        })
+            }
+        }
     }
 
-    func parser(parser: NSXMLParser, parseErrorOccurred parseError: NSError) {
-        print(parseError.description)
-    }
-    
-    
-    func parser(parser: NSXMLParser, validationErrorOccurred validationError: NSError) {
-        print(validationError.description)
-    }
-    
 }
 

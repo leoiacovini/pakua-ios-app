@@ -8,13 +8,14 @@
 
 import UIKit
 
-var rssCache: [Dictionary<String, String>] = []
+var rssCache: [Dictionary<String, String>] = [] // Simple in memory cache for rss feeds
 
 class FeedTableViewController: UITableViewController, FeedParserDelegate {
 
     var feedParser: FeedParser!
     var feedDic: [Dictionary<String, String>]!
     var destinationURL: NSURL?
+    let RSS_URL = NSURL(string: "http://pakuasp.com/rss")!
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
@@ -23,7 +24,7 @@ class FeedTableViewController: UITableViewController, FeedParserDelegate {
             feedParser = FeedParser()
             feedParser.delegate = self
             UIApplication.sharedApplication().networkActivityIndicatorVisible = true
-            feedParser.startParsingWithURL(NSURL(string: "http://pakuasp.com/rss")!)
+            feedParser.startParsingWithURL(RSS_URL)
         }
     }
     
@@ -62,11 +63,13 @@ class FeedTableViewController: UITableViewController, FeedParserDelegate {
         return date.substringToIndex(date.startIndex.advancedBy(17))
     }
     
-    
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         let url = rssCache[indexPath.row]["link"]
         destinationURL = NSURL(string: url!)
-        self.performSegueWithIdentifier("feedView", sender: self)
+        let webVC = storyboard?.instantiateViewControllerWithIdentifier("webViewController") as! WebViewController
+        webVC.url = destinationURL
+        webVC.navigationItem.title = rssCache[indexPath.row]["title"]
+        navigationController?.pushViewController(webVC, animated: true)
     }
     
     
@@ -79,7 +82,7 @@ class FeedTableViewController: UITableViewController, FeedParserDelegate {
     // MARK: - Navigation
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let webVC = segue.destinationViewController as! WebViewController
+        let webVC = storyboard?.instantiateViewControllerWithIdentifier("webViewController") as! WebViewController
         webVC.url = destinationURL
     }
 

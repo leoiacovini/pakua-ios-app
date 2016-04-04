@@ -52,30 +52,5 @@ class CacheManager {
             return nil
         }
     }
-    
 }
 
-
-class NetworkManager {
-    
-    class func getFileFromURL(url: NSURL, inout dataContainer: NSData, block: () -> ()) {
-        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), { () -> Void in
-            let dataObject = NSData(contentsOfURL: url)
-            dispatch_async(dispatch_get_main_queue(), { () -> Void in
-                dataContainer = dataObject!
-                block()
-            })
-        })
-    }
-    
-    class func getDataFromURL(url: NSURL, block: (data: NSData?) -> ()) {
-        
-        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), { () -> Void in
-            let dataObject = NSData(contentsOfURL: url)
-            dispatch_async(dispatch_get_main_queue(), { () -> Void in
-                block(data: dataObject)
-            })
-        })
-    }
-    
-}
