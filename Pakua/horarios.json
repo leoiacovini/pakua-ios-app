@@ -1,0 +1,452 @@
+{
+    "jardins": {
+        "segunda": [
+                    {
+                    "pratica": "Arte Marcial",
+                    "horarioInicio": "12:00",
+                    "horarioTermino": "13:00"
+                    },
+                    {
+                    "pratica": "Arqueria",
+                    "horarioInicio": "14:00",
+                    "horarioTermino": "15:00"
+                    },
+                    {
+                    "pratica": "Armas de Corte",
+                    "horarioInicio": "15:00",
+                    "horarioTermino": "16:00"
+                    },
+                    {
+                    "pratica": "Acrobacia",
+                    "horarioInicio": "16:00",
+                    "horarioTermino": "17:00"
+                    },
+                    {
+                    "pratica": "Turma Infantil",
+                    "horarioInicio": "17:00",
+                    "horarioTermino": "18:00"
+                    },
+                    {
+                    "pratica": "Arte Marcial",
+                    "horarioInicio": "18:00",
+                    "horarioTermino": "19:00"
+                    },
+                    {
+                    "pratica": "Sintonia",
+                    "horarioInicio": "19:00",
+                    "horarioTermino": "20:00"
+                    },
+                    {
+                    "pratica": "Arqueria",
+                    "horarioInicio": "20:00",
+                    "horarioTermino": "21:00"
+                    },
+                    {
+                    "pratica": "Arte Marcial",
+                    "horarioInicio": "21:00",
+                    "horarioTermino": "22:00"
+                    }
+                    ],
+        "terca": [
+                  {
+                  "pratica": "Sintonia",
+                  "horarioInicio": "08:00",
+                  "horarioTermino": "09:00"
+                  },
+                  {
+                  "pratica": "Arte Marcial",
+                  "horarioInicio": "09:00",
+                  "horarioTermino": "10:00"
+                  },
+                  {
+                  "pratica": "Acrobacia",
+                  "horarioInicio": "10:00",
+                  "horarioTermino": "11:00"
+                  },
+                  {
+                  "pratica": "Sintonia",
+                  "horarioInicio": "14:00",
+                  "horarioTermino": "15:00"
+                  },
+                  {
+                  "pratica": "Arte Marcial",
+                  "horarioInicio": "15:00",
+                  "horarioTermino": "16:00"
+                  },
+                  {
+                  "pratica": "Arqueria",
+                  "horarioInicio": "16:00",
+                  "horarioTermino": "17:00"
+                  },
+                  {
+                  "pratica": "Arte Marcial",
+                  "horarioInicio": "17:00",
+                  "horarioTermino": "18:00"
+                  },
+                  {
+                  "pratica": "Armas de Corte",
+                  "horarioInicio": "18:00",
+                  "horarioTermino": "19:00"
+                  },
+                  {
+                  "pratica": "Arte Marcial",
+                  "horarioInicio": "20:00",
+                  "horarioTermino": "21:00"
+                  },
+                  {
+                  "pratica": "Armas de Corte",
+                  "horarioInicio": "21:00",
+                  "horarioTermino": "22:00"
+                  }
+                  ],
+        "quarta": [
+                   {
+                   "pratica": "Energia",
+                   "horarioInicio": "11:00",
+                   "horarioTermino": "12:00"
+                   },
+                   {
+                   "pratica": "Arte Marcial",
+                   "horarioInicio": "12:00",
+                   "horarioTermino": "13:00"
+                   },
+                   {
+                   "pratica": "Tai-Chi",
+                   "horarioInicio": "13:00",
+                   "horarioTermino": "14:00"
+                   },
+                   {
+                   "pratica": "Arqueria",
+                   "horarioInicio": "14:00",
+                   "horarioTermino": "15:00"
+                   },
+                   {
+                   "pratica": "Armas de Corte",
+                   "horarioInicio": "15:00",
+                   "horarioTermino": "16:00"
+                   },
+                   {
+                   "pratica": "Acrobacia",
+                   "horarioInicio": "16:00",
+                   "horarioTermino": "17:00"
+                   },
+                   {
+                   "pratica": "Turma Infantil",
+                   "horarioInicio": "17:00",
+                   "horarioTermino": "18:00"
+                   },
+                   {
+                   "pratica": "Arte Marcial",
+                   "horarioInicio": "18:00",
+                   "horarioTermino": "19:00"
+                   },
+                   {
+                   "pratica": "Sintonia",
+                   "horarioInicio": "19:00",
+                   "horarioTermino": "20:00"
+                   },
+                   {
+                   "pratica": "Arqueria",
+                   "horarioInicio": "20:00",
+                   "horarioTermino": "21:00"
+                   },
+                   {
+                   "pratica": "Arte Marcial",
+                   "horarioInicio": "21:00",
+                   "horarioTermino": "22:00"
+                   }
+                   ],
+        "quinta": [
+                   {
+                   "pratica": "Sintonia",
+                   "horarioInicio": "08:00",
+                   "horarioTermino": "09:00"
+                   },
+                   {
+                   "pratica": "Arte Marcial",
+                   "horarioInicio": "09:00",
+                   "horarioTermino": "10:00"
+                   },
+                   {
+                   "pratica": "Acrobacia",
+                   "horarioInicio": "10:00",
+                   "horarioTermino": "11:00"
+                   },
+                   {
+                   "pratica": "Sintonia",
+                   "horarioInicio": "14:00",
+                   "horarioTermino": "15:00"
+                   },
+                   {
+                   "pratica": "Arte Marcial",
+                   "horarioInicio": "15:00",
+                   "horarioTermino": "16:00"
+                   },
+                   {
+                   "pratica": "Arqueria",
+                   "horarioInicio": "16:00",
+                   "horarioTermino": "17:00"
+                   },
+                   {
+                   "pratica": "Arte Marcial",
+                   "horarioInicio": "17:00",
+                   "horarioTermino": "18:00"
+                   },
+                   {
+                   "pratica": "Armas de Corte",
+                   "horarioInicio": "18:00",
+                   "horarioTermino": "19:00"
+                   },
+                   {
+                   "pratica": "Arte Marcial",
+                   "horarioInicio": "20:00",
+                   "horarioTermino": "21:00"
+                   },
+                   {
+                   "pratica": "Armas de Corte",
+                   "horarioInicio": "21:00",
+                   "horarioTermino": "22:00"
+                   }
+                   ],
+        "sexta": [
+                  {
+                  "pratica": "Arte Marcial",
+                  "horarioInicio": "12:00",
+                  "horarioTermino": "13:00"
+                  },
+                  {
+                  "pratica": "Acrobacia",
+                  "horarioInicio": "16:00",
+                  "horarioTermino": "17:00"
+                  },
+                  {
+                  "pratica": "Tai-Chi",
+                  "horarioInicio": "18:30",
+                  "horarioTermino": "19:30"
+                  },
+                  {
+                  "pratica": "Arte Marcial",
+                  "horarioInicio": "19:30",
+                  "horarioTermino": "20:30"
+                  },
+                  {
+                  "pratica": "Arte Marcial",
+                  "horarioInicio": "20:30",
+                  "horarioTermino": "22:00"
+                  }
+                  ],
+        "sabado": [
+                   {
+                   "pratica": "Sintonia",
+                   "horarioInicio": "09:00",
+                   "horarioTermino": "10:00"
+                   },
+                   {
+                   "pratica": "Arte Marcial",
+                   "horarioInicio": "10:00",
+                   "horarioTermino": "11:00"
+                   },
+                   {
+                   "pratica": "Armas de Corte",
+                   "horarioInicio": "11:00",
+                   "horarioTermino": "12:00"
+                   },
+                   {
+                   "pratica": "Arqueria",
+                   "horarioInicio": "12:00",
+                   "horarioTermino": "13:00"
+                   }
+                   ]
+    },
+    "saude1": {
+        "segunda": [
+                    {
+                    "pratica": "Arte Marcial",
+                    "horarioInicio": "08:00",
+                    "horarioTermino": "09:00"
+                    },
+                    {
+                    "pratica": "Acrobacia",
+                    "horarioInicio": "15:00",
+                    "horarioTermino": "16:00"
+                    },
+                    {
+                    "pratica": "Tai-Chi",
+                    "horarioInicio": "17:00",
+                    "horarioTermino": "18:00"
+                    },
+                    {
+                    "pratica": "Arte Marcial",
+                    "horarioInicio": "18:30",
+                    "horarioTermino": "19:30"
+                    },
+                    {
+                    "pratica": "Arqueria",
+                    "horarioInicio": "19:30",
+                    "horarioTermino": "20:30"
+                    },
+                    {
+                    "pratica": "Arqueria",
+                    "horarioInicio": "20:30",
+                    "horarioTermino": "21:30"
+                    }
+                    ],
+        "terca": [
+                  {
+                  "pratica": "Tai-Chi",
+                  "horarioInicio": "15:00",
+                  "horarioTermino": "16:00"
+                  },
+                  {
+                  "pratica": "Tai-Chi",
+                  "horarioInicio": "17:30",
+                  "horarioTermino": "18:30"
+                  },
+                  {
+                  "pratica": "Armas de Corte",
+                  "horarioInicio": "18:30",
+                  "horarioTermino": "19:30"
+                  },
+                  {
+                  "pratica": "Arte Marcial",
+                  "horarioInicio": "19:30",
+                  "horarioTermino": "20:30"
+                  },
+                  {
+                  "pratica": "Arqueria",
+                  "horarioInicio": "20:30",
+                  "horarioTermino": "21:30"
+                  }
+                  ],
+        "quarta": [
+                   {
+                   "pratica": "Arte Marcial",
+                   "horarioInicio": "08:00",
+                   "horarioTermino": "09:00"
+                   },
+                   {
+                   "pratica": "Acrobacia",
+                   "horarioInicio": "15:00",
+                   "horarioTermino": "16:00"
+                   },
+                   {
+                   "pratica": "Tai-Chi",
+                   "horarioInicio": "17:00",
+                   "horarioTermino": "18:00"
+                   },
+                   {
+                   "pratica": "TF com Luta",
+                   "horarioInicio": "18:30",
+                   "horarioTermino": "19:30"
+                   },
+                   {
+                   "pratica": "Tai-Chi",
+                   "horarioInicio": "19:30",
+                   "horarioTermino": "20:30"
+                   },
+                   {
+                   "pratica": "Arte Marcial",
+                   "horarioInicio": "20:30",
+                   "horarioTermino": "21:30"
+                   }
+                   ],
+        "quinta": [
+                   {
+                   "pratica": "Tai-Chi",
+                   "horarioInicio": "15:00",
+                   "horarioTermino": "16:00"
+                   },
+                   {
+                   "pratica": "Tai-Chi",
+                   "horarioInicio": "17:30",
+                   "horarioTermino": "18:30"
+                   },
+                   {
+                   "pratica": "Armas de Corte",
+                   "horarioInicio": "18:30",
+                   "horarioTermino": "19:30"
+                   },
+                   {
+                   "pratica": "Arte Marcial",
+                   "horarioInicio": "19:30",
+                   "horarioTermino": "20:30"
+                   },
+                   {
+                   "pratica": "Arqueria",
+                   "horarioInicio": "20:30",
+                   "horarioTermino": "21:30"
+                   }
+                   ],
+        "sexta": [
+                  {
+                  "pratica": "Tai-Chi",
+                  "horarioInicio": "08:00",
+                  "horarioTermino": "09:00"
+                  },
+                  {
+                  "pratica": "Arte Marcial",
+                  "horarioInicio": "14:00",
+                  "horarioTermino": "15:00"
+                  },
+                  {
+                  "pratica": "TF com Luta",
+                  "horarioInicio": "18:30",
+                  "horarioTermino": "29:30"
+                  },
+                  {
+                  "pratica": "Armas de Corte",
+                  "horarioInicio": "20:30",
+                  "horarioTermino": "21:30"
+                  }
+                  ],
+        "sabado": [
+                   {
+                   "pratica": "Alongamento",
+                   "horarioInicio": "12:30",
+                   "horarioTermino": "13:30"
+                   },
+                   {
+                   "pratica": "Arqueria",
+                   "horarioInicio": "13:30",
+                   "horarioTermino": "14:30"
+                   },
+                   {
+                   "pratica": "Armas de Corte",
+                   "horarioInicio": "14:30",
+                   "horarioTermino": "15:30"
+                   }
+                   ]
+    },
+    "saude2": {
+        "segunda": [],
+        "terca": [
+                  {
+                  "pratica": "Tai-Chi",
+                  "horarioInicio": "19:30",
+                  "horarioTermino": "20:30"
+                  }
+                  ],
+        "quarta": [
+                   {
+                   "pratica": "Tai-Chi",
+                   "horarioInicio": "19:30",
+                   "horarioTermino": "20:30"
+                   }
+                   ],
+        "quinta": [
+                   {
+                   "pratica": "Tai-Chi",
+                   "horarioInicio": "19:30",
+                   "horarioTermino": "20:30"
+                   }
+                   ],
+        "sexta": [],
+        "sabado": [
+                   {
+                   "pratica": "Arte Marcial",
+                   "horarioInicio": "13:30",
+                   "horarioTermino": "14:30"
+                   }
+                   ]
+    }
+}
