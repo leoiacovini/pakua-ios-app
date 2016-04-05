@@ -139,8 +139,6 @@ class TimeTableViewController: UITableViewController {
         presentViewController(alert, animated: true, completion: nil)
     }
 
-
-
     func diaMudou(sender: UISegmentedControl!) {
         let diaDaSemana = Weekdays(abreviacao: diaSegment.titleForSegmentAtIndex(diaSegment.selectedSegmentIndex)!).rawValue
         self.navigationItem.title = diaDaSemana.capitalizedString + " " + "Feira"
